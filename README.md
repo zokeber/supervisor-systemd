@@ -1,6 +1,6 @@
 # Supervisor service for Systemd #
 
-This service is for  Systemd (system and service manager) in CentOS 7 / Fedora 21.
+This service is for  Systemd (system and service manager) on CentOS 7 / Fedora 21.
 
 ## Usage ##
 
@@ -18,7 +18,7 @@ $ sudo easy_install supervisor
 Clone this repo:
 
 ```
-$ git clone https://github.com/zokeber/supervisor-systemd.git
+$ git clone https://github.com/zokeber/supervisor-systemd.git ~/supervisor-systemd
 ```
 
 ### Copy directories and files. ###
