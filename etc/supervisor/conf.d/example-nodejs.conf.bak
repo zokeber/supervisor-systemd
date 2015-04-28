@@ -1,6 +1,6 @@
 [program:example-nodejs]
 command=/usr/bin/node /opt/example-nodejs/server.js
-directory=/home/webapps/nodejs/guayoyohost/
+directory=/opt/example-nodejs
 user=root
 autostart=true
 autorestart=true
