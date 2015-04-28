@@ -1,0 +1,12 @@
+[program:example-nodejs]
+command=/usr/bin/node /opt/example-nodejs/server.js
+directory=/home/webapps/nodejs/guayoyohost/
+user=root
+autostart=true
+autorestart=true
+stdout_logfile=/var/log/supervisor/example-nodejs.log
+redirect_stderr=false
+stopsignal=QUIT
+environment=
+    MONGODB_USER=username,
+    MONGODB_PASSWD=password
