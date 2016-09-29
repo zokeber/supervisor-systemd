@@ -1,6 +1,6 @@
 # Supervisor service for Systemd #
 
-This service is for  Systemd (system and service manager) on CentOS 7 / Fedora 21.
+This service is for  Systemd (system and service manager) on CentOS 7 / Fedora 24.
 
 ## Usage ##
 
